@@ -1,0 +1,139 @@
+.register-container{
+    height: 100% !important;
+}
+.login-container{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 0 !important;
+
+    .inside{
+        width: 100%;
+    }
+
+    .left-register-container{
+        padding: 100px 0px;
+    }
+
+    .left-container{
+        background-color: #01012B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .inner-left{
+            width: 30%;
+        }
+        
+        h1{
+            font-size: 32px;
+            width: 90%;
+        }
+        
+        
+        .form-login{
+            *{
+                font-family: 'Rubik' !important;
+            }
+            margin-top: 60px;
+            
+            p{
+                margin-top: 20px !important;
+                a b{
+                    font-family: 'Rubik' !important;
+                    color: #ffffff;
+                }
+            }
+            .form-control{
+                font-family: 'Rubik' !important;
+                border-radius: 10px;
+                padding: 10px 10px;
+            }
+
+
+            .btn-login{
+                font-size: 20px;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 10px;
+                width: 100%;
+                background-color: #FF124F;
+            }
+        }
+    }
+
+    .right-container{
+        background-image: url('/assets/img/background-login.jpg');
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 998px){
+    .login-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .register-container{
+        height: 120vh !important;
+    }
+
+    .left-register-container{
+        height: 120vh !important;
+        padding: 130px 40px !important;
+    }
+    .left-login-container{
+        height: 100vh !important;
+    }
+    
+    .left-container{
+        padding: 0px 30px;
+
+        .inner-left{
+            width: 100% !important;
+        }
+
+        h1{
+            font-size: 18px !important;
+            width: 100%;
+        }
+
+        p{
+            font-size: 8px;
+        }
+        .form-login{
+            font-family: 'Rubik' !important;
+            margin-top: 30px;
+            
+            p{
+                font-size: 9px;
+                margin-top: 20px !important;
+                a b{
+                    font-family: 'Rubik' !important;
+                    color: #ffffff;
+                }
+            }
+            .form-control{
+                font-family: 'Rubik' !important;
+                border-radius: 10px;
+                padding: 10px 10px;
+            }
+
+
+            .btn-login{
+                font-size: 20px;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 10px;
+                width: 100%;
+                background-color: #FF124F;
+            }
+        }
+
+
+    }
+    .right-container{
+        display: none;
+    }
+}
