@@ -1,0 +1,380 @@
+.seminar-container{
+    
+    padding-bottom: 0px  !important;
+    *{
+        color: black;
+    }
+    
+    .breadcrumb{
+        *{
+            font-family: 'Rubik' !important;
+        }
+        background-color: #ffffff;
+        font-size: 16px;
+    }
+    
+    nav{
+        padding: 0 !important;
+        margin: 0 !important;
+        
+        ol{
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+    h1{
+        padding-top: 10px;
+        font-family: 'Russo One' !important;
+        font-size: 24px;
+    }
+    
+    .contact-person{
+        margin-top: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p{
+            font-size: 12px;
+        }
+        .container-btn-cp{
+
+            .btn-cp{
+                border: none;
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #00E676 !important;
+                width: 160px;
+                display: flex;
+                font-size: 12px;
+                margin-right: 10px;
+                i{
+                    color: #ffffff;
+                    margin-right: 10px;
+                }
+                
+                p{
+                    font-family: 'Rubik' !important;
+                    color: #ffffff;
+                    *{
+                        color: #ffffff;
+                    }
+                }
+
+                :active{
+                    width: 180px;
+                }
+            }
+            
+        }
+    }
+    
+}
+
+.content-seminar{
+    *{
+        color: black;
+    }
+
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    .container{
+        
+        display: flex;
+        flex-direction: row;
+        padding: 0 !important;
+
+        .left-seminar{
+            width: 50%;
+            padding: 10px;
+            img{
+                width: 100%;
+                object-fit: cover;
+                border: 1px solid #aaa;
+                box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15), 
+                0 8px 8px rgba(0,0,0,0.10),
+                0 16px 16px rgba(0,0,0,0.05);
+            }
+        }
+        .right-seminar{
+            width: 50%;
+            padding: 10px;
+
+            h1{
+                font-family: 'Rubik' !important;
+                font-size: 32px;
+            }
+            p{
+                font-size: 12px;
+                margin-bottom: 10px !important;
+            }
+            
+            small{
+                font-family: 'Rubik' !important;
+            }
+        }
+    }
+}
+
+.narasumber{
+    
+    *{
+        color: #232323;
+    }
+    
+    .c-n{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inner-narasumber{
+        margin-right: 10px;
+        width: 250px;
+        display: flex;
+
+        .circle{
+            width: 50%;
+            height: 100px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px 10px;
+            h4{
+                font-size: 12px;
+                width: 100%;
+                text-align: left;
+            }
+            p{
+                width: 100%;
+                text-align: left;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.btn-seminar{
+    padding: 0px 200px !important;
+
+    .btn-primary{
+        font-family: 'Rubik' !important;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+.btn-seminar{
+    a{
+        background-color: #01012B;
+        
+    }
+    :hover{
+        background-color: #2A2A64;
+    }
+    :active{
+        background-color: #2A2A64;
+    }
+
+    :visited{
+        background-color: #2A2A64;
+    }
+
+}
+@media only screen and (max-width: 998px){
+
+    .seminar-container{
+
+        
+        *{
+            color: black;
+        }
+        
+        hr{
+            margin: 80px 20px !important;
+        }
+        .breadcrumb{
+            *{
+                font-family: 'Rubik' !important;
+            }
+            background-color: #ffffff;
+            font-size: 10px;
+        }
+        
+        nav{
+            padding: 0 !important;
+            margin: 0 !important;
+            
+            ol{
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+        }
+        h1{
+            padding-top: 10px;
+            font-family: 'Russo One' !important;
+            font-size: 24px;
+        }
+        
+        .contact-person{
+            margin-top: 30px;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            p{
+                font-size: 8px;
+            }
+            .container-btn-cp{
+    
+                .btn-cp{
+                    
+                    border: none;
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #00E676 !important;
+                    width: 120px;
+                    display: flex;
+                    font-size: 12px;
+                    margin-right: 10px;
+                    i{
+                        color: #ffffff;
+                        margin-right: 10px;
+                    }
+                    
+                    p{
+                        font-family: 'Rubik' !important;
+                        color: #ffffff;
+                        *{
+                            color: #ffffff;
+                        }
+                    }
+    
+                    :active{
+                        width: 180px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+
+.content-seminar{
+    *{
+        color: black;
+    }
+    
+
+    padding: 0px 20px !important;
+    
+    .container{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+        
+        .left-seminar{
+            width: 100%;
+            padding: 10px;
+            img{
+                width: 100%;
+                object-fit: cover;
+                border: 1px solid #aaa;
+                box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15), 
+                0 8px 8px rgba(0,0,0,0.10),
+                0 16px 16px rgba(0,0,0,0.05);
+            }
+        }
+        .right-seminar{
+            width: 100%;
+            padding: 10px;
+            padding-top: 30px;
+            h1{
+                font-family: 'Rubik' !important;
+                font-size: 32px;
+            }
+            p{
+                padding-top: 30px;
+                font-size: 12px;
+                margin-bottom: 10px !important;
+            }
+            
+            small{
+                font-family: 'Rubik' !important;
+            }
+        }
+    }
+}
+
+.narasumber{
+    
+    *{
+        color: #232323;
+    }
+    
+    .c-n{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner-narasumber{
+        margin-right: 10px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        .circle{
+            width: 100%;
+            height: 100px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px 10px;
+            h4{
+                font-size: 12px;
+                width: 100%;
+                text-align: center;
+            }
+            p{
+                width: 100%;
+                text-align: center;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.btn-seminar{
+    padding: 0px 20px !important;
+
+    .btn-primary{
+        font-family: 'Rubik' !important;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+}

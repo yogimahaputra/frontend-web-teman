@@ -1,4 +1,6 @@
 @import './login-register';
+@import './seminar';
+@import './lomba';
 
 $red : red;
 
@@ -10,6 +12,11 @@ $red : red;
 
 html{
     scroll-behavior: smooth;
+}
+
+.active{
+    font-weight: 900 !important; 
+    color: #01012B !important;
 }
 
 p{
@@ -135,6 +142,22 @@ p{
         font-weight: bold;
         color: #ffffff !important;
         background-color: #01012B;
+        padding: 10px !important;
+        border-radius: 10px;
+    }
+    .dashboard-akun{
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff !important;
+        background-color: #01012B;
+        padding: 10px !important;
+        border-radius: 10px;
+    }
+
+    .logout{
+        color: red;
+        text-align: left;
+        font-weight: bold;
         padding: 10px !important;
         border-radius: 10px;
     }
