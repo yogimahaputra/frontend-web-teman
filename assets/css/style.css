@@ -180,9 +180,6 @@
 .seminar-container .contact-person .container-btn-cp .btn-cp p * {
   color: #ffffff;
 }
-.seminar-container .contact-person .container-btn-cp .btn-cp :active {
-  width: 180px;
-}
 
 .content-seminar {
   padding-top: 0px !important;
@@ -341,9 +338,6 @@
   .seminar-container .contact-person .container-btn-cp .btn-cp p * {
     color: #ffffff;
   }
-  .seminar-container .contact-person .container-btn-cp .btn-cp :active {
-    width: 180px;
-  }
 
   .content-seminar {
     padding: 0px 20px !important;
@@ -489,9 +483,6 @@
 }
 .lomba-container .contact-person .container-btn-cp .btn-cp p * {
   color: #ffffff;
-}
-.lomba-container .contact-person .container-btn-cp .btn-cp :active {
-  width: 180px;
 }
 
 .content-lomba {
@@ -765,9 +756,6 @@
   }
   .lomba-container .contact-person .container-btn-cp .btn-cp p * {
     color: #ffffff;
-  }
-  .lomba-container .contact-person .container-btn-cp .btn-cp :active {
-    width: 180px;
   }
 
   .content-lomba {
