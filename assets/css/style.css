@@ -1018,6 +1018,7 @@
   width: 90%;
 }
 .content-dashboard .inner-content-dashboard .option-content {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1288,6 +1289,7 @@
     width: 90%;
   }
   .content-dashboard .inner-content-dashboard .option-content {
+    margin-top: 15px !important;
     display: flex;
     justify-content: center;
     align-items: center;
