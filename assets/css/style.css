@@ -1060,6 +1060,14 @@
 .modal .modal-content .inner-body .input-form {
   margin-right: 10px;
 }
+.modal .modal-content .inner-body .input-form .option {
+  background-color: #01012B;
+  border: none;
+  color: #ffffff;
+}
+.modal .modal-content .inner-body .input-form .option .option {
+  color: #ffffff;
+}
 .modal .modal-content .inner-body .input-form input {
   background-color: #010132;
   border: none;

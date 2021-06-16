@@ -223,7 +223,16 @@
         align-items: center;
         .input-form{
             margin-right: 10px;
+            
+            .option{
+                background-color: #01012B;
+                border: none;
+                color: #ffffff;
 
+                .option{
+                    color: #ffffff;
+                }
+            }
             input{
                 background-color: #010132;
                 border: none;
