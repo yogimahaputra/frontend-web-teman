@@ -1338,6 +1338,7 @@
     flex-direction: column;
   }
   .modal .modal-content .inner-body .input-form {
+    width: 90%;
     margin-right: 10px;
   }
   .modal .modal-content .inner-body .input-form input {
