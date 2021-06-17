@@ -2,6 +2,9 @@
     color: red;
 }
 
+.form-control{
+        font-family: 'Rubik' !important;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -210,10 +213,15 @@
 
 .modal{
     *{
-        font-family: 'Rubik' !important;
         color: #ffffff;
     }
-
+    
+    .btn-daftar{
+        font-family: 'Rubik' !important;
+    }
+    h5{
+        font-family: 'Rubik' !important;
+    }
    .modal-content{
     background-color: #01012B;
     
@@ -516,8 +524,14 @@
     
     .modal{
         *{
-            font-family: 'Rubik' !important;
             color: #ffffff;
+        }
+        
+        .btn-daftar{
+            font-family: 'Rubik' !important;
+        }
+        h5{
+            font-family: 'Rubik' !important;
         }
     
        .modal-content{
@@ -536,6 +550,7 @@
                     background-color: #010132;
                     border: none;
                     color: #ffffff;
+                    
                 }
     
                 ::placeholder {
@@ -551,6 +566,7 @@
                     font-weight: bold;
                     padding-bottom: 10px !important;
                 }
+                
             }
         }
         .modal-footer{

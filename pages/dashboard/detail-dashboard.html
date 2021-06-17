@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <title>TechnoManuscript | Fasco Unsri</title>
+</head>
+
+<body id="main" class="detail-dashboard">
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="alert alert-warning alert-modal" role="alert">
+                        <img src="../../assets/img/warning.png" alt="warning" width="50">
+                        <p>Pastikan <b>submission</b> anda benar-benar sesuai syarat & ketentuan yang berlaku, dikarenakan tidak dapat membatalkan/mengirim ulang file submission. Semangat!</p>
+                      </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="indes.html" method="POST" >
+                <div class="modal-body">
+                            <div class="custom-file-upload"  id="yourBtn" onclick="getFile()"><i class="fas fa-upload"></i></div>
+                            <!-- this is your file input tag, so i hide it!-->
+                            <!-- i used the onchange event to fire the form submission-->
+                            <div style='height: 0px;width: 0px; overflow:hidden;'><input id="upfile" type="file" value="upload" onchange="sub(this)" /></div>
+                            <!-- here you can have file submit button or you can write a simple script to upload the file automatically-->
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit" class="btn btn-primary btn-daftar" value="Daftar Lomba" />
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md nav-menu">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="" onclick="closeNav()">&times;</a>
+            <a href="../dashboard/dashboard.html" class="dashboard-menu">DASHBOARD</a>
+            <a href="../../beranda.html"><i class="fa fa-home"></i> Home </a>
+            <a href="#" style="color: red;"><i class="fas fa-sign-out-alt"></i> LogOut </a>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <span class="nav-menu" onclick="openNav()">&#9776; </span>
+        <div class="image-layer"></div>
+        <div class="container content">
+            <div class="inner-content">
+                <div class="left-content">
+                    <img src="../../assets/img/debat.png" alt="logo" width="200">
+                </div>
+                <div class="right-content">
+                    <p>Lomba Debat Ilmiah merupakan salah satu cabang lomba dalam event Technology Manuscript oleh
+                        Fasilkom Science Community (FASCO) Universitas Sriwijaya. Dengan tema "Milenial Siap untuk
+                        Indonesia Emas 2045", kami mengajak seluruh mahasiswa S1, D4, dan D3 seluruh Indonesia untuk
+                        turut mencari solusi dalam pembangunan negeri. Lomba debat akan didahului dengan seleksi esai.
+                        Kami tunggu karya terbaikmu, ya!</p>
+                    <a href="../lomba.html" class="btn btn-primary bnt-detail">Detail Lomba</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container content-detail">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <b>Kelompok ( nama kelompok ) ,</b> Belum mengumpulkan submission yang terbaru!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <!-- SUCCESS ALERT -->
+        <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <b>Kelompok ( nama kelompok ) ,</b> Telah menyerahkan submisson. Silahkan untuk menunggu pengumuman selanjutnya!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
+
+
+        <div class="table-detail">
+            <p><b>KELOMPOK ( Nama Kelompok ) ,</b> <span>Belum Terverifikasi</span></p>
+            <br>
+            <div class="table-responsive">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Nama</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">No Telepon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="alert alert-danger alert-dismissible fade show alert-center" role="alert">
+            <b>Submission :</b> Upload berkas verifikasi pendaftaran lomba dan kelompok sesuai syarat dan ketentuan
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <!-- SUCCESS ALERT -->
+        <!-- <div class="alert alert-success alert-dismissible fade show alert-center" role="alert">
+            <b>Submission :</b>  telah diupload, tunggu pengumuman selanjutnya.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
+        
+        <button type="button" class="btn btn-primary btn-submision" data-toggle="modal" data-target="#exampleModalCenter">
+            Kirim Submission 
+        </button>
+
+        <div class="table-detail t-b-2">
+            <p style="font-size: 24px; text-align: center;"><b><strong>HISTORY SUBMISSON</strong></b></p>
+            <br>
+            <div class="table-responsive">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">Judul Submission</th>
+                            <th scope="col">TANGGAL UPLOAD</th>
+                            <th scope="col">STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Air putih</th>
+                            <td>21/21/2021</td>
+                            <td>Diterima</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../../assets/js/script.js"></script>
+</body>
+
+</html>

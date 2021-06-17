@@ -1,0 +1,324 @@
+.detail-dashboard {
+    padding: 0 !important;
+    margin: 0 !important;
+
+    .custom-file-upload {
+        padding: 100px !important;
+        border: 1px solid #636397;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fa-upload{
+            font-size: 24px;
+        }
+    }
+
+
+    
+    .alert-modal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #A38B00;
+        font-size: 8px;
+        
+        p{
+            padding: 10px !important;
+            color: #272727;
+            b{
+                color: #272727;
+                font-weight: bold;
+            }
+        }
+    }
+    .navbar {
+        padding: 0 !important;
+        margin: 0 !important;
+        z-index: 5000 !important;
+    }
+
+    .banner {
+        position: relative;
+        text-align: center;
+
+        .nav-menu {
+            position: absolute;
+            font-size: 30px;
+            cursor: pointer;
+            z-index: 1100 !important;
+            color: #ffffff;
+            top: 30px;
+            left: 30px;
+        }
+        .image-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size: cover;
+            background-position: right center;
+            background-image: url("../img/hero-min.png");
+        }
+    }
+
+    .content {
+        span {
+            z-index: 1000 !important;
+        }
+        .inner-content {
+            z-index: 1000 !important;
+            color: #ffffff;
+
+            * {
+            }
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 80px;
+            margin-top: 70px;
+
+            .right-content {
+                width: 50%;
+                padding-top: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                p {
+                    text-align: center;
+                    font-size: 12px;
+                }
+
+                a {
+                    border: none;
+                    margin-top: 20px;
+                    width: 150px;
+                    background-color: #ff124f;
+                    font-size: 12px;
+                    padding: 10px;
+                    font-family: "Rubik" !important;
+                    font-weight: bold;
+                }
+            }
+            .left-content {
+            }
+        }
+    }
+}
+
+.content-detail{
+    *{
+        font-family: 'Rubik' !important;
+    }
+    padding-top: 50px;
+    .alert{
+        width: 80%;
+    }
+
+    .table-detail{
+        width: 80%;
+        border: 1px solid slategrey;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+        0 2px 2px rgba(0,0,0,0.15), 
+        0 4px 4px rgba(0,0,0,0.15), 
+        0 8px 8px rgba(0,0,0,0.15);
+        p{
+            span{
+                color: red;
+            }
+        }
+    }
+
+    .alert-center{
+        text-align: center;
+    }
+
+    .btn-submision{
+        margin-top: 25px;
+        width: 80%;
+        background-color: #ff124f;
+        border: none;
+        margin-bottom: 50px;
+    }
+}
+
+.t-b-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: none !important;
+    border: none !important;
+    .table-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    table{
+
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (max-width: 998px) {
+
+    .custom-file-upload {
+        padding: 20px !important;
+        border: 1px solid #636397;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fa-upload{
+            font-size: 12px;
+        }
+    }
+    .alert-modal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #A38B00;
+        font-size: 8px;
+        
+        p{
+            padding: none !important;
+            color: #272727;
+            text-align: center;
+            width: 100%;
+            b{
+                color: #272727;
+                font-weight: bold;
+            }
+        }
+    }
+    .detail-dashboard {
+        padding: 0 !important;
+        margin: 0 !important;
+
+        .navbar {
+            padding: 0 !important;
+            margin: 0 !important;
+            z-index: 5000 !important;
+        }
+
+        .banner {
+            position: relative;
+            text-align: center;
+            .image-layer {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-repeat: no-repeat;
+                height: 100%;
+                background-size: cover;
+                background-position: right center;
+                background-image: url("../img/hero-min.png");
+            }
+        }
+
+        .content {
+            .inner-content {
+                z-index: 1000 !important;
+                color: #ffffff;
+
+                * {
+                }
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 150px 0px;
+                margin-top: 30px;
+                .right-content {
+                    width: 100%;
+                    padding-left: 0px;
+                    padding-top: 30px !important;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    p {
+                        text-align: center;
+                        font-size: 12px;
+                    }
+
+                    a {
+                        border: none;
+                        margin-top: 20px;
+                        width: 150px;
+                        background-color: #ff124f;
+                        font-size: 12px;
+                        padding: 10px;
+                        font-family: "Rubik" !important;
+                        font-weight: bold;
+                    }
+                }
+                .left-content {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    
+.content-detail{
+    *{
+        font-family: 'Rubik' !important;
+    }
+    padding-top: 20px !important;
+    .alert{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .table-detail{
+        width: 100%;
+        border: 1px solid slategrey;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+        0 2px 2px rgba(0,0,0,0.15), 
+        0 4px 4px rgba(0,0,0,0.15), 
+        0 8px 8px rgba(0,0,0,0.15);
+        p{
+            font-size: 12px;
+            span{
+                color: red;
+            }
+        }
+
+        .table{
+            font-size: 12px;
+        }
+
+
+    }
+
+
+}
+}
